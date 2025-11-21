@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
+import Footer from '@/components/Footer';
 
 export default function AppLayout({ children }) {
   return (
@@ -16,7 +17,10 @@ export default function AppLayout({ children }) {
 
       <div className="pattern-stripes border-border hidden border-x sm:block"></div>
 
-      <main className="mt-3xl space-y-3xl relative">{children}</main>
+      <main>
+        {children}
+        <Footer />
+      </main>
 
       <div className="pattern-stripes border-border hidden border-x sm:block"></div>
 
