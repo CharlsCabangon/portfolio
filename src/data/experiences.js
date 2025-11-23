@@ -1,0 +1,38 @@
+export const experiences = [
+  {
+    id: 0,
+    title: 'Frontend Engineer',
+    company: 'Apple',
+    date: '2028 -  ∞',
+    isActive: true,
+    dir: 'exp',
+    filename: 'frontend.md',
+  },
+  {
+    id: 1,
+    title: 'Graphic Artist',
+    company: 'Freelance',
+    date: '2024 - ∞',
+    isActive: true,
+    dir: 'exp',
+    filename: 'graphics.md',
+  },
+  {
+    id: 2,
+    title: 'Intern',
+    company: 'Aklan Provincial ICT Office',
+    date: 'January 2025 - March 2025',
+    isActive: false,
+    dir: 'exp',
+    filename: 'intern.md',
+  },
+  {
+    id: 3,
+    title: 'BS in Computer Science',
+    company: 'Garcia College of Technology',
+    date: 'August 2021 - May 2025',
+    isActive: false,
+    dir: 'exp',
+    filename: 'grad.md',
+  },
+];
