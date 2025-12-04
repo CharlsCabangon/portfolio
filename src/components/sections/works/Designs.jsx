@@ -26,18 +26,18 @@ export default function Designs() {
       <div className="ml-sm space-y-sm">
         <Heading level="h4">designs</Heading>
         <Border>
-          <p>A curated showcase of my favorite visual builds.</p>
+          <p>a curated showcase of my favorite visual builds</p>
         </Border>
       </div>
       <div>
         <Label margin={true}>{`grid grid-cols-3 grid-rows-6`}</Label>
         <Border isFront={true}>
-          <div className="p-sm bg-background-secondary w-full">
+          <div className="md:p-sm bg-background-secondary w-full p-1.5">
             <div
               className={clsx(
                 'grid w-full gap-0.5',
                 'grid-cols-3 grid-rows-6',
-                'lg:gap-xs md:gap-1',
+                'md:gap-1',
                 'xxs:h-[400px] xs:h-[500px] h-[300px] sm:h-[600px] md:h-[800px] lg:h-[950px] xl:h-[1240px]'
               )}
             >

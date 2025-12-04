@@ -61,7 +61,7 @@ export default function Tile({ children, src, title, caption, gridClass, onClick
                 transition={{ duration: 0.3, ease: 'easeOut' }}
                 className={clsx(
                   'absolute inset-0',
-                  'bg-gradient-to-t from-black/60 via-black/45 via-35% to-black/30'
+                  'bg-gradient-to-t from-black/75 via-black/45 via-40% to-black/30'
                 )}
               />
 
@@ -73,7 +73,14 @@ export default function Tile({ children, src, title, caption, gridClass, onClick
                   transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
                   className="p-md absolute inset-x-0 bottom-0 z-10"
                 >
-                  <p className="text-left text-xs font-light text-white">{caption}</p>
+                  <p
+                    className={clsx(
+                      'border-l-2 border-white pl-3',
+                      'font-code text-left text-xs font-light text-white'
+                    )}
+                  >
+                    {caption}
+                  </p>
                 </motion.div>
               )}
             </>

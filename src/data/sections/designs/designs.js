@@ -34,7 +34,7 @@ const designs = [
     caption:
       'A brand design for Trainy, an AI-powered fitness app. The logo features a robot head shaped like a dumbbell, blending tech and strength in one bold mark.',
     gridClass: 'col-start-3 row-span-3 row-start-1',
-    className: 'rounded-tl-none rounded-b-none',
+    className: 'rounded-tl-none rounded-br-none',
   },
   {
     id: 'design-jay-ay-logo',
