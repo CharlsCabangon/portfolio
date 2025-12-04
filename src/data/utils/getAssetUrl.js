@@ -1,4 +1,4 @@
-import { BLOB_URL } from '@/config/config';
+import { BLOB_URL } from '@/config/blob';
 
 const ROOT = 'assets';
 
