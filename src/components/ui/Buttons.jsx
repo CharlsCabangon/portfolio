@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
 
-import { getAriaLabel } from '@/utils/getAriaLabel';
+import { getAriaLabel } from '@/lib/utils/getAriaLabel';
 
 export function PrimaryBtn({ children, type = 'button', onClick, disabled = false, className }) {
   return (

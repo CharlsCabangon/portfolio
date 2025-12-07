@@ -1,4 +1,5 @@
-import { getAssetUrl, PATH, EXT } from '@/data/utils/getAssetUrl';
+import { getAssetUrl } from '@/lib/utils/getAssetUrl';
+import { PATH, EXT } from '@/lib/constants/assets';
 
 export const about = {
   id: 'charls-cabangon',

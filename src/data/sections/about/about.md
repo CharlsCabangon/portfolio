@@ -4,4 +4,4 @@ project's identity, but it’s all the same mission: making things feel like the
 actually belong in your hands. I care about the tiniest details, the little moments,
 the parts people don’t notice but always feel. I write clean, scalable, and
 future-proof code. It's simple, if I’m creating it, it’s going to _look right, feel
-right, and move right_.
+right, and move right_. [Download my Resume]()

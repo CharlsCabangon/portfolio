@@ -2,8 +2,8 @@ import { useState } from 'react';
 
 import clsx from 'clsx';
 
-import ImageLightbox from '@/features/Lightbox/ImageLightbox';
-import Heading from '@/components/display/Heading/Heading';
+import ImageLightbox from '@/components/display/Lightbox/ImageLightbox';
+import Heading from '@/components/ui/Heading/Heading';
 import Border from '@/components/ui/Border';
 import Label from '@/components/ui/Label';
 import Tile from '@/components/ui/Tile';

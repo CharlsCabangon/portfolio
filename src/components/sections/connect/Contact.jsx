@@ -2,7 +2,7 @@ import clsx from 'clsx';
 
 import ContactForm from '@/features/Contact/components/ContactForm';
 import Border from '@/components/ui/Border';
-import Heading from '@/components/display/Heading/Heading';
+import Heading from '@/components/ui/Heading/Heading';
 
 export default function Contact() {
   return (

@@ -1,6 +1,6 @@
 import emailjs from '@emailjs/browser';
 
-import { EMAILJS, validateEmailJSConfig } from '@/config/emailjs';
+import { EMAILJS, validateEmailJSConfig } from '@/lib/config/emailjs';
 import { EMAIL_ERROR_TYPE } from '../utils/constants';
 
 class EmailService {

@@ -2,8 +2,8 @@ import { useState, useRef } from 'react';
 import PropTypes from 'prop-types';
 
 import Card from './Card';
-import { getMediaType } from './utils/getMediaType';
-import { MEDIA_TYPES } from './utils/media';
+import { getMediaType } from '@/lib/utils/getMediaType';
+import { MEDIA_TYPES } from '@/lib/constants/media';
 
 export default function CardContainer({ project, index }) {
   const [isHovered, setIsHovered] = useState(false);

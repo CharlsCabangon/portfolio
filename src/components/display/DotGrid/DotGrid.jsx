@@ -3,7 +3,7 @@ import { useRef, useEffect, useCallback, useMemo } from 'react';
 import { gsap } from 'gsap';
 import { InertiaPlugin } from 'gsap/InertiaPlugin';
 
-import { useTheme } from '../Theme/utils/hooks/useTheme';
+import { useTheme } from '../../../features/Theme/hooks/useTheme';
 
 gsap.registerPlugin(InertiaPlugin);
 

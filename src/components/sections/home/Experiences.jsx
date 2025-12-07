@@ -1,6 +1,6 @@
 import Accordion from '@/components/ui/Accordion/Accordion';
 import Border from '@/components/ui/Border';
-import Heading from '@/components/display/Heading/Heading';
+import Heading from '@/components/ui/Heading/Heading';
 import Label from '@/components/ui/Label';
 
 import { experiences } from '@/data/sections/experiences/experiences';
