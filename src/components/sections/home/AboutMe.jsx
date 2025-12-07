@@ -1,10 +1,8 @@
 import clsx from 'clsx';
 
-import Border from '@/components/ui/Border';
-import Tooltip from '@/components/ui/Tooltip';
-import DotGrid from '@/components/display/DotGrid/DotGrid';
-import ClickSpark from '@/components/display/ClickSpark/ClickSpark';
-import Markdown from '@/features/Markdown/components/Markdown';
+import { Border, Tooltip } from '@/components/ui';
+import { DotGrid, ClickSpark } from '@/components/display';
+import { Markdown } from '@/features/Markdown';
 import { about, tools } from '@/data/sections/about/about';
 
 export default function AboutMe() {

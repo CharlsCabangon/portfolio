@@ -1,9 +1,9 @@
 import clsx from 'clsx';
+
+import { Tooltip } from '@/components/ui';
+import { getLink } from '@/data/sections/about/links';
 import { SocialIcon } from 'react-social-icons';
 import { ArrowDownTrayIcon } from '@heroicons/react/20/solid';
-
-import Tooltip from '@/components/ui/Tooltip';
-import { getLink } from '@/data/sections/about/links';
 
 export default function Links() {
   return (

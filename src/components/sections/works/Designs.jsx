@@ -2,11 +2,8 @@ import { useState } from 'react';
 
 import clsx from 'clsx';
 
-import ImageLightbox from '@/components/display/Lightbox/ImageLightbox';
-import Heading from '@/components/ui/Heading/Heading';
-import Border from '@/components/ui/Border';
-import Label from '@/components/ui/Label';
-import Tile from '@/components/ui/Tile';
+import { ImageLightbox } from '@/components/display';
+import { Heading, Border, Label, Tile } from '@/components/ui';
 import { getAllDesigns, getDesignsForLightbox } from '@/data/sections/designs/designs';
 
 export default function Designs() {

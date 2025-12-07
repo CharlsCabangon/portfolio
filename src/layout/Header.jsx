@@ -4,8 +4,8 @@ import clsx from 'clsx';
 import { Link } from 'react-scroll';
 import { motion, AnimatePresence } from 'framer-motion';
 
-import ThemeToggle from '@/features/Theme/components/ThemeToggle';
 import Logo from '@/components/icons/Logo';
+import { ThemeToggle } from '@/features/Theme';
 import { NAV_LINKS } from '@/data/layout/navData';
 import { EllipsisVerticalIcon } from '@heroicons/react/20/solid';
 

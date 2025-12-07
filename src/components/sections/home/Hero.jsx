@@ -1,8 +1,6 @@
 import { Link } from 'react-scroll';
 
-import Border from '@/components/ui/Border';
-import Label from '@/components/ui/Label';
-import { PrimaryBtn, SecondaryBtn } from '@/components/ui/Buttons';
+import { Border, Label, PrimaryBtn, SecondaryBtn } from '@/components/ui';
 import { NAV_ID } from '@/data/layout/navData';
 
 export default function Hero() {

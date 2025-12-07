@@ -2,11 +2,7 @@ import { useState, useEffect } from 'react';
 import clsx from 'clsx';
 
 import { useContactForm } from '../hooks/useContactForm';
-import FormInput from '@/components/ui/Form/FormInput';
-import FormTextarea from '@/components/ui/Form/FormTextarea';
-import Alert from '@/components/ui/Alert';
-import Spinner from '@/components/ui/Spinner';
-import { PrimaryBtn, SecondaryBtn } from '@/components/ui/Buttons';
+import { FormInput, FormTextarea, Alert, Spinner, PrimaryBtn, SecondaryBtn } from '@/components/ui';
 import { EMAIL_SUCCESS, EMAIL_ERROR } from '../utils/constants';
 
 export default function ContactForm() {

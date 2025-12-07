@@ -1,8 +1,7 @@
 import clsx from 'clsx';
 
-import Border from '@/components/ui/Border';
 import Logo from '@/components/icons/Logo';
-import Clipboard from '@/components/ui/Clipboard';
+import { Border, Clipboard } from '@/components/ui';
 import { footerData } from '@/data/layout/footerData';
 import { getLink, getLinks } from '@/data/sections/about/links';
 

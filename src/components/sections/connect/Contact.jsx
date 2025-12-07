@@ -1,8 +1,5 @@
-import clsx from 'clsx';
-
-import ContactForm from '@/features/Contact/components/ContactForm';
-import Border from '@/components/ui/Border';
-import Heading from '@/components/ui/Heading/Heading';
+import { ContactForm } from '@/features/Contact';
+import { Border, Heading } from '@/components/ui';
 
 export default function Contact() {
   return (

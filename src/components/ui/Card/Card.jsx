@@ -2,8 +2,9 @@ import PropTypes from 'prop-types';
 import clsx from 'clsx';
 
 import Tooltip from '@/components/ui/Tooltip';
+import { MEDIA_TYPES } from '@/lib/constants';
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline';
-import { MEDIA_TYPES } from '@/lib/constants/media';
+
 export default function Card({ project, index, onMouseEnter, onMouseLeave }) {
   const renderPreview = () => {
     if (!project.preview) return null;

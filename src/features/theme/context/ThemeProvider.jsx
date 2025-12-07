@@ -2,8 +2,8 @@ import { useState, useEffect, useCallback } from 'react';
 import PropTypes from 'prop-types';
 
 import { ThemeContext } from './ThemeContext';
-import { getTheme } from '../utils/getTheme';
 import { getSystemPreference } from '../utils/getSystemPreference';
+import { getTheme } from '../utils/getTheme';
 import { THEME } from '../utils/constants';
 
 export function ThemeProvider({ children }) {

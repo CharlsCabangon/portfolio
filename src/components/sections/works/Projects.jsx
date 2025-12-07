@@ -1,8 +1,6 @@
-import Heading from '@/components/ui/Heading/Heading';
-import Label from '@/components/ui/Label';
-import CardContainer from '@/components/ui/Card/CardContainer';
+import { Heading, Label, CardContainer } from '@/components/ui';
 
-import { useDevice } from '@/lib/hooks/useDevice';
+import { useDevice } from '@/lib/hooks';
 import { projects } from '@/data/sections/projects/projects';
 
 export default function Projects() {

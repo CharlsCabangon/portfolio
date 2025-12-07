@@ -2,8 +2,8 @@ import { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
 
-import TimelineNode from '@/components/display/TimelineNode/TimelineNode';
-import Markdown from '@/features/Markdown/components/Markdown';
+import { TimelineNode } from '@/components/display';
+import { Markdown } from '@/features/Markdown';
 import { ChevronDownIcon } from '@heroicons/react/24/outline';
 
 export default function AccordionItem({ item, isFirst, isLast }) {

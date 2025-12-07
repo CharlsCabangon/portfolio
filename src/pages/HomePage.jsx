@@ -1,10 +1,7 @@
-import Hero from '@/components/sections/home/Hero';
-import AboutMe from '@/components/sections/home/AboutMe';
-import Projects from '@/components/sections/works/Projects';
-import Designs from '@/components/sections/works/Designs';
-import Experiences from '@/components/sections/home/Experiences';
-import Contact from '@/components/sections/connect/Contact';
-import Footer from '@/layout/Footer';
+import { Hero, AboutMe, Experiences } from '@/components/sections';
+import { Projects, Designs } from '@/components/sections';
+import { Contact } from '@/components/sections';
+import { Footer } from '@/layout';
 import { NAV_ID } from '@/data/layout/navData';
 
 export default function HomePage() {

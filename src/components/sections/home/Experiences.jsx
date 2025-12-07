@@ -1,8 +1,4 @@
-import Accordion from '@/components/ui/Accordion/Accordion';
-import Border from '@/components/ui/Border';
-import Heading from '@/components/ui/Heading/Heading';
-import Label from '@/components/ui/Label';
-
+import { Accordion, Border, Heading, Label } from '@/components/ui';
 import { experiences } from '@/data/sections/experiences/experiences';
 
 export default function Experiences() {
