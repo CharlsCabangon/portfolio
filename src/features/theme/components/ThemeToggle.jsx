@@ -11,8 +11,8 @@ export default function ThemeToggle({ className }) {
       onClick={toggleTheme}
       className={clsx(
         'relative flex h-8 w-8 items-center justify-center',
-        'cursor-pointer rounded-full transition-colors duration-300',
-        'hover:bg-background-secondary',
+        'cursor-pointer rounded-full transition-colors duration-200 ease-out',
+        'hover-fade hover:bg-background-secondary',
         className
       )}
       aria-label="Toggle theme"

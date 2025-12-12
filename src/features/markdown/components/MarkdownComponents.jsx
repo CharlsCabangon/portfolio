@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 export const markdownComponents = {
   h1: ({ children }) => <h1 className="text-foreground mt-4 mb-2 text-xl font-bold">{children}</h1>,
   h2: ({ children }) => <h2 className="text-foreground mt-4 mb-2 text-lg font-bold">{children}</h2>,
@@ -22,7 +21,7 @@ export const markdownComponents = {
   li: ({ children }) => <li className="text-foreground font-light">{children}</li>,
 
   code: ({ children }) => (
-    <code className="bg-foreground-disabled text-primary font-code rounded px-1 py-0.5 text-xs">
+    <code className="bg-foreground-disabled text-foreground font-code rounded px-1 py-0.5 text-xs">
       {children}
     </code>
   ),

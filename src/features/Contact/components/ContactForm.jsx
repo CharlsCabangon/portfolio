@@ -96,7 +96,7 @@ export default function ContactForm() {
               onClick={resetForm}
               disabled={isSending}
               aria-busy={isSending}
-              className="hidden sm:block"
+              className="xxs:block hidden"
             >
               clear all
             </SecondaryBtn>

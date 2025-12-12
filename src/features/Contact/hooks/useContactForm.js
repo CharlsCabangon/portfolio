@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 
 import { emailService } from '../services/emailService';
 import { debounce } from '../utils/debounce';
@@ -23,17 +23,24 @@ export function useContactForm() {
     saveFormData(formData);
   }, [formData]);
 
-  // delayed validator that waits 500 ms before checking if the field is valid.
-  const debouncedValidateField = useCallback(
-    debounce((fieldName, value) => {
-      const error = validateField(fieldName, value);
-      setErrors((prev) => ({
-        ...prev,
-        [fieldName]: error,
-      }));
-    }, 500),
+  // delayed validator that waits 500 ms before checking if the field is valid
+  const debouncedValidateField = useMemo(
+    () =>
+      debounce((fieldName, value) => {
+        const error = validateField(fieldName, value);
+        setErrors((prev) => ({
+          ...prev,
+          [fieldName]: error,
+        }));
+      }, 500),
     []
   );
+
+  useEffect(() => {
+    return () => {
+      debouncedValidateField.cancel?.();
+    };
+  }, [debouncedValidateField]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -56,7 +63,6 @@ export function useContactForm() {
       [name]: true,
     }));
 
-    // validate immediately on blur
     const error = validateField(name, value);
     setErrors((prev) => ({
       ...prev,
@@ -64,7 +70,6 @@ export function useContactForm() {
     }));
   };
 
-  // find the first field with an error and put the cursor there
   const focusFirstInvalidField = (validationErrors) => {
     const fieldOrder = ['name', 'email', 'message'];
 
@@ -114,12 +119,10 @@ export function useContactForm() {
         setFormData(INITIAL_FORM_STATE);
         setTouched({});
       } else {
-        // emailJS error - show user-friendly message
         setStatus(STATUS.ERROR);
         setErrorMessage(result.error);
       }
     } catch (error) {
-      // unexpected error
       console.error('Unexpected error:', error);
       setStatus(STATUS.ERROR);
       setErrorMessage('an unexpected error occurred. please try again.');
