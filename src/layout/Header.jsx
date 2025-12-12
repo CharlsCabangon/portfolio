@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 import { motion, AnimatePresence } from 'framer-motion';
 
 import Logo from '@/components/icons/Logo';
-import { ThemeToggle } from '@/features/tempTheme';
+import { ThemeToggle } from '@/features/Theme';
 import { fadeInDown, slideDown, popIn, transition } from '@/styles/animation';
 import { useStagger } from '@/lib/hooks';
 import { NAV_LINKS, NAV_ID } from '@/data/layout/navData';

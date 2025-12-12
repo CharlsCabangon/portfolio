@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import clsx from 'clsx';
 
 import { TimelineNode } from '@/components/display';
-import { Markdown } from '@/features/tempMarkdown';
+import { Markdown } from '@/features/Markdown';
 import { ChevronDownIcon } from '@heroicons/react/24/outline';
 
 export default function AccordionItem({ item, isFirst, isLast }) {

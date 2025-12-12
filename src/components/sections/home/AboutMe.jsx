@@ -3,7 +3,7 @@ import clsx from 'clsx';
 
 import { Border, Tooltip } from '@/components/ui';
 import { DotGrid, ClickSpark } from '@/components/display';
-import { Markdown } from '@/features/tempMarkdown';
+import { Markdown } from '@/features/Markdown';
 import { about, tools } from '@/data/sections/about/about';
 import { useScrollReveal, useStagger } from '@/lib/hooks';
 import { downloadResume } from '@/lib/utils';

@@ -2,7 +2,7 @@ import { memo } from 'react';
 import PropTypes from 'prop-types';
 
 import { Border, Label } from '@/components/ui/';
-import { useTheme } from '@/features/tempTheme';
+import { useTheme } from '@/features/Theme';
 
 function Heading({ children, level = 'h1', position, hasLabel = true }) {
   const Tag = level;
