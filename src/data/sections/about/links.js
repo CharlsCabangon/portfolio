@@ -1,9 +1,9 @@
 const links = {
   email: { label: 'Email', href: 'charlsmercabangon@gmail.com' },
-  linkedin: { label: 'LinkedIn', href: 'https://www.linkedin.com/in/charls-cabangon-8126a3378/' },
-  github: { label: 'GitHub', href: 'https://github.com/CharlsCabangon' },
+  linkedin: { label: 'LinkedIn', href: 'https://www.linkedin.com/in/charlscabangon/' },
+  github: { label: 'GitHub', href: 'https://github.com/charlscabangon' },
   messenger: { label: 'Messenger', href: 'https://m.me/charlsmercabangon' },
-  whatsapp: { label: 'WhatsApp', href: 'https://wa.me/09630392699' },
+  whatsapp: { label: 'WhatsApp', href: 'https://wa.me/639105091127' },
   instagram: { label: 'Instagram', href: 'https://www.instagram.com/charlscabangon/' },
 };
 

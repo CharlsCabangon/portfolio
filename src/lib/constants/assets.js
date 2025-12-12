@@ -19,4 +19,5 @@ export const EXT = {
   IMAGE: 'avif',
   VIDEO: 'webm',
   ICON: 'svg',
+  DOC: 'pdf',
 };
